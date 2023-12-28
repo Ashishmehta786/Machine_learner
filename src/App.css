@@ -1,0 +1,54 @@
+/* Reset body margin */
+body {
+  margin: 0;
+  
+}
+
+h5{ 
+  font-family: 'Poppins', sans-serif; 
+}
+.head{
+ color: #000000;
+  font-family:'Dosis',sens-serif;
+  padding:3px 3px; 
+}
+
+h1{
+  text-align:center;
+
+  font-family:'Merriweather',sans-serif;
+}
+.heading3 {
+  
+  font-size: 14px;
+  text-align: center; /* Center align heading3 in both mobile and desktop */
+}
+
+img {
+  
+  border-radius: 8px; 
+  max-width: 97%; 
+}
+.output{
+  padding:5px 2px; 
+  
+}
+p{ margin-top:10px;
+  margin-bottom:10px;
+  text-align:center;
+  font-family:'Poppins',sans-serif;
+}
+.heading3{
+  text-align: left; /* Left align text by default */
+font-size: 24px;
+  @media (max-width: 769px) {
+    text-align: center; /* Center align text for desktop screens */
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .heading3 {
+    font-size: 20px; 
+  }
+}
